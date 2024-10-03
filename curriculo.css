@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    height: 100%;
+    color: #e5e7eb;
+  }
+  
+  :root {
+    font-size: 62,5%;
+  }
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .icons-aside {
+    width: 15px;
+    height: 15px;
+  }
+  .contacts {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  aside {
+    background-color: #64748b;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px 10px;
+  }
+  .myInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  main {
+    padding: 30px;
+    width: auto;
+    flex: 1 1 ;
+    background-color: #475569;
+  }
+  
+  #imgCard {
+    width: 100px;
+    background-color: #eab308;
+    border-radius: 50%;
+  }
+  
+  footer {
+    padding-left: 30px;
+    padding-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: first baseline;
+  }
